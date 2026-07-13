@@ -38,6 +38,9 @@ public class SocialMediaController {
 
     }
 
+    /*
+    ** Register a new account after validating input and ensuring the username is not already taken
+    */
   @PostMapping("/register")
   public ResponseEntity<Account> register(@RequestBody Account account){
 
